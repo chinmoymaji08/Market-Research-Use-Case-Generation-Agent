@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Multi-Agent AI Use Case Generator Architecture</text>
+  
+  <!-- User Input -->
+  <rect x="350" y="70" width="100" height="50" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+  <text x="400" y="100" font-family="Arial" font-size="14" text-anchor="middle">User Input</text>
+  
+  <!-- Main Flow -->
+  <line x1="400" y1="120" x2="400" y2="150" stroke="#388e3c" stroke-width="2" />
+  
+  <!-- Industry Research Agent -->
+  <rect x="250" y="150" width="300" height="80" rx="5" fill="#bbdefb" stroke="#1565c0" stroke-width="2" />
+  <text x="400" y="180" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Industry Research Agent</text>
+  <text x="400" y="205" font-family="Arial" font-size="12" text-anchor="middle">Researches company/industry information</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="230" x2="400" y2="260" stroke="#1565c0" stroke-width="2" />
+  
+  <!-- Use Case Generation Agent -->
+  <rect x="250" y="260" width="300" height="80" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+  <text x="400" y="290" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Use Case Generation Agent</text>
+  <text x="400" y="315" font-family="Arial" font-size="12" text-anchor="middle">Analyzes trends and creates AI use cases</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="340" x2="400" y2="370" stroke="#7b1fa2" stroke-width="2" />
+  
+  <!-- Resource Asset Collection Agent -->
+  <rect x="250" y="370" width="300" height="80" rx="5" fill="#ffecb3" stroke="#ff8f00" stroke-width="2" />
+  <text x="400" y="400" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Resource Asset Collection Agent</text>
+  <text x="400" y="425" font-family="Arial" font-size="12" text-anchor="middle">Finds datasets and implementation resources</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="450" x2="400" y2="480" stroke="#ff8f00" stroke-width="2" />
+  
+  <!-- Final Proposal Generator -->
+  <rect x="250" y="480" width="300" height="80" rx="5" fill="#f8bbd0" stroke="#c2185b" stroke-width="2" />
+  <text x="400" y="510" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Final Proposal Generator</text>
+  <text x="400" y="535" font-family="Arial" font-size="12" text-anchor="middle">Compiles all information into final report</text>
+  
+  <!-- External Tools -->
+  <!-- Web Search -->
+  <rect x="50" y="165" width="120" height="50" rx="5" fill="#cfd8dc" stroke="#455a64" stroke-width="2" />
+  <text x="110" y="195" font-family="Arial" font-size="12" text-anchor="middle">Web Search APIs</text>
+  <line x1="170" y1="190" x2="250" y2="190" stroke="#455a64" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Industry Reports -->
+  <rect x="50" y="275" width="120" height="50" rx="5" fill="#cfd8dc" stroke="#455a64" stroke-width="2" />
+  <text x="110" y="305" font-family="Arial" font-size="12" text-anchor="middle">Industry Reports</text>
+  <line x1="170" y1="300" x2="250" y2="300" stroke="#455a64" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Dataset Sources -->
+  <rect x="50" y="385" width="120" height="50" rx="5" fill="#cfd8dc" stroke="#455a64" stroke-width="2" />
+  <text x="110" y="405" font-family="Arial" font-size="12" text-anchor="middle">Kaggle, GitHub,</text>
+  <text x="110" y="425" font-family="Arial" font-size="12" text-anchor="middle">HuggingFace</text>
+  <line x1="170" y1="410" x2="250" y2="410" stroke="#455a64" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- LLM API -->
+  <rect x="630" y="275" width="120" height="50" rx="5" fill="#cfd8dc" stroke="#455a64" stroke-width="2" />
+  <text x="690" y="305" font-family="Arial" font-size="12" text-anchor="middle">LLM API</text>
+  <line x1="550" y1="300" x2="630" y2="300" stroke="#455a64" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Output Format -->
+  <rect x="630" y="495" width="120" height="50" rx="5" fill="#cfd8dc" stroke="#455a64" stroke-width="2" />
+  <text x="690" y="525" font-family="Arial" font-size="12" text-anchor="middle">Markdown/Text File</text>
+  <line x1="550" y1="520" x2="630" y2="520" stroke="#455a64" stroke-width="2" stroke-dasharray="5,5" />
+</svg>

@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['agents\\industry_research_agent.py', 'agents\\use_case_generation_agent.py', 'agents\\resource_asset_agent.py', 'ai_use_case_generator_system.py', 'app.py', 'requirements.txt', 'README.md', '.env']
+
+[main]
+version = 0.2.0
+recent_files = []
+
